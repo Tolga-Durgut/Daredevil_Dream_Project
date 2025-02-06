@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 12963e3692a3243d6862d5a2e3406b33
+guid: 9eb8b9eac2019445fae5b02754579071
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -31,26 +31,26 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Bouncing Fight Idle
+      name: Punching
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 209
+      lastFrame: 49
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
-      heightFromFeet: 1
+      heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
@@ -526,18 +526,18 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: daredevill@T-Pose(Clone)
+    - name: Daredevil(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: M_MED_Deli_Sandwich.mo
-      parentName: daredevill@T-Pose(Clone)
+      parentName: Daredevil(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}
     - name: mixamorig:Hips
-      parentName: daredevill@T-Pose(Clone)
+      parentName: Daredevil(Clone)
       position: {x: 0.0032718696, y: 97.00115, z: 0.45110333}
       rotation: {x: 0.000012738753, y: 0.00001113964, z: -0.00032372636, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
