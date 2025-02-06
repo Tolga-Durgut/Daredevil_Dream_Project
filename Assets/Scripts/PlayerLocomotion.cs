@@ -32,6 +32,7 @@ public class PlayerLocomotion : MonoBehaviour
 
         Vector3 movementVelocity = moveDirection;
         playerRigidbody.linearVelocity = movementVelocity;
+       
 
    }
 
